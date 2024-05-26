@@ -1,4 +1,4 @@
-#include <QCoreApplication>
+//#include <QCoreApplication>
 #include <glm/glm.hpp>
 #include <glm/gtx/string_cast.hpp>
 #include <iostream>
@@ -63,6 +63,6 @@ int main(int argc, char *argv[])
     float result2 = equation2(n);
     std::cout << result2 << std::endl;
 
-    QCoreApplication a(argc, argv);
-    return a.exec();
+    //QCoreApplication a(argc, argv);
+    //return a.exec();
 }
