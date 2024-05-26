@@ -2,8 +2,9 @@ CXX = gcc
 CXXFLAGS = -std=c++17
 TARGET = PRO_cicd_vaja
 
-SRCS = main.cpp
-OBJS = main.o
+SRCS = $(wildcard *.cpp)
+OBJS = $(SRCS:.cpp=.o)
+
 
 make: $(TARGET)
 
