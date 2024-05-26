@@ -4,9 +4,9 @@
 #include <iostream>
 #include <cmath>
 
-#define M_PI 3.14
+//#define M_PI 3.14
 
-glm::vec4 equation(float n){
+/*glm::vec4 equation(float n){
     glm::vec4 col1 = glm::vec4(0.5, 0.7, 0.9, 1);
     glm::mat4 mat = glm::mat4(glm::vec4(glm::cos(M_PI/6), 0, 0, 0), glm::vec4(0, 1, glm::sin(M_PI/6), 0),
                               glm::vec4(0, -glm::sin(M_PI/6), glm::cos(M_PI/6), 0), glm::vec4(0, 0, 0, 1));
@@ -48,7 +48,7 @@ float equation2(float n) {
     glm::vec4 right_res = tmp_mat4 * col2;
 
     return glm::dot(left_res, right_res);
-}
+}*/
 
 int main(int argc, char *argv[])
 {
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
     std::cin >> n;
     std::cout << std::endl;
 
-    //first equation
+    /*//first equation
     glm::vec4 result = equation(n);
     std::cout << glm::to_string(result) << std::endl;
 
@@ -67,4 +67,5 @@ int main(int argc, char *argv[])
 
     //QCoreApplication a(argc, argv);
     //return a.exec();
+    */
 }
