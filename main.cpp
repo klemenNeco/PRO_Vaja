@@ -54,6 +54,7 @@ int main(int argc, char *argv[])
     std::cout << "Vnesite stevilo: ";
     std::cin >> n;
     std::cout << std::endl;
+    std::cout << argv[0] << std::endl;
 
     /*//first equation
     glm::vec4 result = equation(n);
