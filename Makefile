@@ -1,5 +1,5 @@
 CXX = gcc
-CXXFLAGS = -std=c++17
+CXXFLAGS = -Wall -Wextra -Werror -std=c++17
 TARGET = PRO_cicd_vaja
 
 SRCS = $(wildcard *.cpp)
