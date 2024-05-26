@@ -1,4 +1,4 @@
-CXX = g++
+CXX = gcc
 CXXFLAGS = -Wall -Wextra -std=c++17
 TARGET = PRO_cicd_vaja
 
