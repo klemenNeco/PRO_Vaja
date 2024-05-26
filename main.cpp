@@ -4,6 +4,8 @@
 #include <iostream>
 #include <cmath>
 
+#define M_PI 3.14
+
 glm::vec4 equation(float n){
     glm::vec4 col1 = glm::vec4(0.5, 0.7, 0.9, 1);
     glm::mat4 mat = glm::mat4(glm::vec4(glm::cos(M_PI/6), 0, 0, 0), glm::vec4(0, 1, glm::sin(M_PI/6), 0),
