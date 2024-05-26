@@ -1,5 +1,5 @@
 CXX = gcc
-CXXFLAGS = -Wall -Wextra -std=c++17
+CXXFLAGS = -std=c++17
 TARGET = PRO_cicd_vaja
 
 SRCS = main.cpp
